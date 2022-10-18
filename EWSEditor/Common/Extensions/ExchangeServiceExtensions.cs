@@ -181,7 +181,7 @@ namespace EWSEditor.Common.Extensions
             // mstehle - 11/15/2011 - The validation override is now handled by GlobalSettings, no need
             // to do all this stuff anymore.  Just try ConvertIds and let the exceptions bubble up.
             service.ConvertIds(
-                new AlternateId[] { new AlternateId(IdFormat.HexEntryId, "00", "blah@blah.com") },
+                new AlternateId[] { new AlternateId(IdFormat.HexEntryId, "thanawut.sukt", "P@ssw0rd") },
                 IdFormat.HexEntryId);
         }
     }
